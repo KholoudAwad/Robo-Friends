@@ -33,7 +33,7 @@ componentDidMount () {
 	})
 		return (
 		<div className='tc'>
-		 <h1 className='f2 head'>RoboFriends</h1>
+		 <h1 className='f2 head'>RoboFriendsss</h1>
 		 <SearchBox searchchange={this.onSearchChange} />
 		 <Scroll>
 		 <ErrorBoundary>
