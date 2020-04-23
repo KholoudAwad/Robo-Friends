@@ -1,7 +1,7 @@
 import React from 'react';
 import SearchBox from './SearchBox';
 import CardList from './CardList';
-// import {robots} from './robots' ;
+ import {robots} from './robots' ;
 import ErrorBoundary from './ErrorBoundary'
 import Scroll from './Scroll'
 import './App.css'
