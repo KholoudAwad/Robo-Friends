@@ -34,9 +34,11 @@ onSearchChange = (event) => {
 		const filteredRobots = this.state.robots.filter(robot => {
 		return robot.name.toLowerCase().includes(this.state.searchfield.toLowerCase())
 	})
-		return (
+		return !robots.length ? 
+		<h1>LOADING</h1> : 
+		(
 		<div className='tc'>
-		 <h1 className='f2 head'>RoboFriendss</h1>
+		 <h1 className='f2 head'>RoboFriends</h1>
 		 <SearchBox searchchange={this.onSearchChange} />
 		 <Scroll>
 		 <ErrorBoundary>
